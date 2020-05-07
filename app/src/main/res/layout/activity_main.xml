@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sqlite.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:id="@+id/name_sqlite"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_sqlite"
+        android:id="@+id/age_sqlite"
+        android:hint="Age"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/age_sqlite"
+        android:layout_marginTop="60dp"
+        android:textAllCaps="false"
+        android:text="main4_activity"
+        android:id="@+id/main4_activity"
+        />
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="main2_activity"
+        android:textAllCaps="false"
+        android:id="@+id/main2_activity"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

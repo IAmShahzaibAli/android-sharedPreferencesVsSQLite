@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPrefrences.Main2Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/name_preferences"
+        android:hint="Name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/age_preferences"
+        android:hint="Age"
+        android:layout_below="@+id/name_preferences"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/nextactivity_preferences"
+        android:text="next_activity"
+        android:textAllCaps="false"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
