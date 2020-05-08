@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Sqlite.Main4Activity"></activity>
+        <activity android:name=".timer.timer_activity"></activity>
+        <activity android:name=".Sqlite.Main4Activity" />
         <activity android:name=".SharedPrefrences.Main3Activity" />
         <activity android:name=".SharedPrefrences.Main2Activity" />
         <activity android:name=".Sqlite.MainActivity">

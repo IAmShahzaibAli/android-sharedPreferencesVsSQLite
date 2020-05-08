@@ -28,6 +28,14 @@
         android:text="main4_activity"
         android:id="@+id/main4_activity"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main4_activity"
+        android:text="timer_activity"
+        android:id="@+id/timeractivity"
+        android:textAllCaps="false"
+        />
 
 
 

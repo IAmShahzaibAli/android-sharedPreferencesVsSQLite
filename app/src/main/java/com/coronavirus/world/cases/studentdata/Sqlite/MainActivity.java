@@ -11,10 +11,11 @@ import android.widget.EditText;
 
 import com.coronavirus.world.cases.studentdata.R;
 import com.coronavirus.world.cases.studentdata.SharedPrefrences.Main2Activity;
+import com.coronavirus.world.cases.studentdata.timer.timer_activity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button main2_activity,main4_activity;
+    Button main2_activity,main4_activity,timer_activity;
     EditText name,age;
     SqliteHelper sqliteHelper;
     int Ageint;
@@ -26,7 +27,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         bindingmain2activity();
         sqliteHelper= new SqliteHelper(this);
+        timer_activity = (Button)findViewById(R.id.timeractivity);
         bindingValues();
+        timer_activity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, com.coronavirus.world.cases.studentdata.timer.timer_activity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
